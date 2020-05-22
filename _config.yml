@@ -1,0 +1,26 @@
+---
+name: "PAGE Study"
+#baseurl: "/prisms-www"
+markdown: kramdown
+permalink: pretty
+paginate: 3
+paginate_path: "news/page:num/"
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'projects'
+    template: 'projects'
+    name: 'slug'
+    dir: 'studies'
+
+port: 8000
+
+exclude: ['favicon.jpg']
+
+sass:
+  sass_dir: assets/css
+  style: :compact
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag

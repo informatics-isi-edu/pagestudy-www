@@ -1,0 +1,16 @@
+# Layout settings
+
+
+
+# Colors
+#accent: "#49B076"
+accent: "#02c8d7"
+
+textColor: "#666"
+headlineColor: "#333"
+bgcolor: "#85dfe6"
+documentBackgroundColor: "#fff"
+
+branding: "#023940"
+branding-light: "#02c8d7"
+branding-lighter: "#85dfe6"

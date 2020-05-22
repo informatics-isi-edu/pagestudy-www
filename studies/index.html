@@ -1,0 +1,16 @@
+---
+layout: default
+title: PAGE Studies
+---
+<div class="projects">
+
+<p>Below are links to descriptions of each of the studies in the current phase of PAGE. To vew descriptions of studies from previous phases, please visit TBD.</p>
+
+{% for project in site.data.projects %}
+	<ul>
+		<li><a href="{{ site.baseurl }}/projects/{{ project.slug}}/">
+			{{project.project_title}}</a><br/>{{ project.pi }} <em>({{ project.institute }})</em>{% if project.copi != null %}, {{project.copi}} <em>({{ project.coinstitute }})</em> {% endif %}</li>
+	</ul>
+{% endfor %}
+
+</div>

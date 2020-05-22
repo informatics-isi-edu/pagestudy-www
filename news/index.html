@@ -1,0 +1,18 @@
+---
+layout: default
+title: News Archive
+---
+
+<div class="innercontent news">
+
+{% for post in site.posts %}
+
+  <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <small><em>({{ post.date | date_to_long_string }})</em></small></h4>
+  <div class="news-content">
+  {{ post.content }}
+  </div>
+
+{% endfor %}
+
+
+</div>

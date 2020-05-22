@@ -1,0 +1,27 @@
+<div class="push"></div>
+</div>
+<footer id="footer">
+
+  <div class="lockup">
+    
+    <div class="content-wrap">
+
+      <nav>
+        {% for item in site.data.settings.menu %}
+          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+      
+      <p class="copyright">All content copyright {{ site.time | date: '%Y' }}
+      </p>
+
+    </div>
+    
+  </div>
+
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="{{ "/assets/js/lightbox.js" | relative_url }}"></script>
+<script src="{{ "/assets/js/functions.js" | relative_url }}"></script>
+</body>
+</html>

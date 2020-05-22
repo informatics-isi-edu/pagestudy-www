@@ -1,0 +1,70 @@
+<section class="section-projects">
+  
+  <h3 id="projects" class="bigger">Projects</h3>
+
+
+<div class="work-belt projects">
+    {% for project in site.data.settings.projects %}
+
+      <div class="project-desc">
+        <p class="project-name">{{ project.name }}</p>
+        <figure>
+        <img src="assets/img/pis/{{project.img}}.jpg" class="project-pic" width="130" alt="{{ project.pi }}">
+        <figcaption class="project-pi">
+            <strong>PI:</strong> {{ project.pi }} <br/>
+            <span class="institute">{{ project.institute }}</span>
+        </figcaption>
+    	</figure>
+    	{% if project.copi != null %}
+    		<figure>
+		        <img src="assets/img/pis/{{project.coimg}}.jpg" class="project-pic" width="130" alt="{{ project.copi }}">
+		        <figcaption class="project-copi">
+                    <strong>PI:</strong> {{ project.copi }} <br/>
+                    <span class="institute">{{ project.coinstitute }}</span>
+                </figcaption>
+		    </figure>
+		    {% endif %}
+        <div class="project-wrap">
+            <p class="project-blurb">{{ project.description }}</p>
+            {% if project.personnel != null %}
+            <p class="personnel">Key personnel:</p>
+            <ul class="personnel-list">
+                {% for item in project.personnel %}
+                    <li>{{ item.person }}</li>
+                {% endfor %}
+            </ul>
+            {%  endif %}
+        </div>
+
+        {% if project.subprojects != null %}
+
+        <div class="subproject-desc">
+        {% for subproject in project.subprojects %}
+        	<div class="subproject-sect">
+	        	<p class="project-name">{{ subproject.name }}</p>
+		        <figure>
+		        <img src="assets/img/pis/{{subproject.img}}.jpg" class="subproject-pic" width="176" alt="{{ subproject.pi }}">
+		        <figcaption class="subproject-pi"><strong>PI:</strong> {{ subproject.pi }}</figcaption>
+		    	</figure>
+		        <p class="project-blurb">{{ subproject.description }}</p>
+	        </div>
+	        {% endfor %}
+        </div>
+        {% endif %}
+        
+        {% if item.presentations != null %}
+  			<h3>Project Presentations</h3>
+  			<div class="project-presentations">
+  				<ul class="presentation-list">
+  						{% for presentation in item.presentations %}
+  								<li><a href="{{ presentation.presentation-url }}">{{ presentation.presentation-title }}</a></li>
+  						{% endfor %}
+  				</ul>
+  			</div>
+  			{% endif %}
+
+      </div>
+
+    {% endfor %}
+</div>
+</section>

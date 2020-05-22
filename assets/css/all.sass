@@ -1,0 +1,30 @@
+---
+---
+
+@import '1-tools/-tools-dir'
+
+//------------------------------------------------
+// Transition the image paths from the settings file to usable SASS variables
+
+$logo-path: '{{ site.data.layout.footerlogo }}'
+
+
+// $projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
+
+//------------------------------------------------
+// Set some colors as sass variables
+
+$accent: {{ site.data.layout.accent }}
+$accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
+
+$branding: {{ site.data.layout.branding }}
+$branding-light: {{ site.data.layout.branding-light }}
+$selectionColor: #fcdf94
+
+$textColor: {{ site.data.layout.textColor }}
+$headlineColor: {{ site.data.layout.branding }}
+$bgcolor: {{ site.data.layout.bgcolor }}
+$documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }}
+
+@import '2-base/-base-dir'
+@import '3-sections/-sections-dir'

@@ -1,0 +1,47 @@
+#-------------------------------
+# General Site Settings
+
+title: Population Architecture using Genomics and Epidemiology (PAGE)
+#description: Developing sensors that monitor environmental triggers of pediatric asthma
+description:  Population Architecture using Genomics and Epidemiology (PAGE) widens research in existing large epidemiology studies by using ancestrally-diverse study populations instead of only populations of European descent.
+email: cristina@isi.edu
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: Home, url: '/'}
+- {name: Studies, url: '/studies/'}
+- {name: Multi-Ethnic Genotyping Array, url: '/mega/'}
+- {name: Coordinating Center, url: '/coordinating-center/'}
+- {name: Publications, url: '/publications/'}
+- {name: News, url: '/news/'}
+- {name: Contact, url: '/contact/'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: The Population Architecture using Genomics and Epidemiology (PAGE) Study widens research in existing large epidemiology studies by using ancestrally-diverse study populations instead of only populations of European descent. The focus of the new research is on how genetic variants initially identified through GWAS research are related to a person's biological and physical characteristics, such as weight, cholesterol levels, blood sugar levels or bone density. Scientists will also examine how non-genetic factors, such as diet, medications and smoking, may interact with genetic factors or each other to influence health outcomes. Such information is vital to developing more individualized ways of preventing, diagnosing and treating common diseases.
+
+  #rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  #rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: >
+  Over recent years, genome-wide association studies (GWAS) have allowed researchers to uncover thousands of genetic variants associated with common diseases. However, the discovery of genetic variants through GWAS research represents just the first step in the challenging process of piecing together the complex biological picture of common diseases. To help speed the process, the National Human Genome Research Institute, is supporting new research in existing large epidemiology studies, all with a rich range of measures of health and potential disease, and many with long-term follow-up.

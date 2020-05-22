@@ -1,0 +1,19 @@
+{% include header.html %}
+
+<section class="section-news">
+
+  <h3 id="about" class="bigger">News</h3>
+	<div class="innercontent">
+	   <h4>{{ page.title }}</h4>
+	   <p class="pub-date">Published {{ page.date | date_to_long_string }}</p>
+
+    	{{ content }}
+
+     <div class="news-link">
+ 			<a href="{{ site.baseurl }}/news/">See all news</a>
+ 		</div>
+  </div>
+
+</section>
+
+{% include footer.html %}

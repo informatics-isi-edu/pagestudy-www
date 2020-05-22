@@ -1,0 +1,124 @@
+.banner
+  background-color: #fbde98
+  text-align: center
+  padding: 10px
+  font-weight: bold
+  margin-top: -20px
+
+header
+  background: #fff
+    //position: 30px 20px, 50% 50%
+    image: url(../img/background.png)
+  height: 120px
+
+
+  .branding
+    float: left
+    color: #fff
+    padding: 15px
+    margin: 0 auto
+    width: 75px
+    display: block
+
+  .title
+    margin: 0 auto
+    width: 1200px
+    padding-top: 40px
+
+    span.titlewrap
+      display: block
+      font-size: 28px
+      font-weight: bold
+      text-align: center
+      padding-top: 40px
+      color: #fff
+      padding: 5px
+      width: 946px
+      margin: 0 auto
+      background: rgba(2, 57, 64, 0.8)
+
+.navbar
+  background-color: #fff
+  z-index: 1030
+
+
+  .nav
+    list-style: none
+    border: 1px solid #ccc
+    border-width: 1px 0
+    margin: 0
+    padding: 0
+    text-align: center
+    cursor: default
+
+    li
+      display: inline
+
+      a
+        display: inline-block
+        padding: 10px
+
+        @extend %small-bold
+
+        &:hover
+          //color: lighten($branding-light, 20%)
+          color: #000
+          text-decoration: underline
+
+
+  h1
+    font-family: 'Roboto', sans-serif
+    text-align: center
+    font:
+      size: 72px
+      weight: 700
+    color: white
+    letter-spacing: 0.05em
+    margin-bottom: 20px
+    clear: both
+    padding-top: 50px
+
+  //  span
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: white solid 10px
+
+  .kicker
+    @extend %small-bold
+    text-align: center
+    letter-spacing: 0.05em
+    color: white
+    line-height: 1
+
+@media (max-width: 640px)
+  header
+    background:
+      //position: 50% 20px, 50% 50%
+    padding-bottom: 0
+    height: 200px
+
+    .branding
+      display: none
+
+      p
+        text-align: center
+
+    .navbar
+      nav
+        float: none
+        text-align: center
+        padding: 10px
+
+        a
+          margin-left: 10px
+
+    span.titlewrap
+      padding-top: 60px
+
+      img
+        width: 90%
+        display: block
+
+
+    h1
+      padding-top: 0px

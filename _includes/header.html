@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142682054-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142682054-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.data.settings.seo.description }}">
+  <meta rel="author" href="{{ site.data.settings.seo.rel-author }}">
+  <meta rel="publisher" href="{{ site.data.settings.seo.rel-publisher }}">
+
+  <title>{{ site.data.settings.title }}</title>
+  <link href="{{ "/assets/css/all.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/assets/css/lightbox.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/favicon.ico" | relative_url }}" rel="icon" type="image/x-icon">
+
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--
+  {% include analytics.html %}
+  -->
+  {% seo %}
+</head>
+<body>
+<div class="wrap">
+  <header id="header">
+  	<div class="branding">
+        <a href="{{ site.baseurl }}/">
+    		    <img src="{{"/assets/img/Genome_logo5b.png" | relative_url}}" alt="PAGE Study logo" width="90px" style="border-radius: 25%;"/>
+        </a>
+  	</div>
+    <div class="title">
+      <span class="titlewrap">Population Architecture using Genomics and Epidemiology (PAGE)</span>
+    </div>
+  </header>
+  <div class="navbar">
+
+      <ul class="nav">
+       {% for item in site.data.settings.menu %}
+         <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a></li>
+       {% endfor %}
+        <li><a href="#">WIKI</a></li>
+      </li>
+
+  </div>
+  <!--
+  <div class="banner">
+    The PRISMS website will be down on Thursday, July 26th between 9am and 11am Pacific time zone for system maintenance.
+  </div>
+-->

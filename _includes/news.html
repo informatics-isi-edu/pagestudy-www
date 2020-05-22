@@ -1,0 +1,13 @@
+<section class="section-news">
+  <h3 id="news" class="bigger">Latest News</h3>
+<!-- use the posts function ala facebase -->
+<!-- List group -->
+<ul class=" blurb list-group">
+  {% for post in site.posts limit: 5 %}
+    <li class="list-group-item"><span class="news-date">{{ post.date | date: "%m/%d/%Y" }}</span> - <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+<p class="news-link">
+  <a href="{{"/news/" | relative_url}}">See all news here.</a>
+</p>
+</section>
