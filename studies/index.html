@@ -8,7 +8,7 @@ title: PAGE Studies
 
 {% for project in site.data.projects %}
 	<ul>
-		<li><a href="{{ site.baseurl }}/projects/{{ project.slug}}/">
+		<li><a href="{{ site.baseurl }}/studies/{{ project.slug}}/">
 			{{project.project_title}}</a><br/>{{ project.pi }} <em>({{ project.institute }})</em>{% if project.copi != null %}, {{project.copi}} <em>({{ project.coinstitute }})</em> {% endif %}</li>
 	</ul>
 {% endfor %}
