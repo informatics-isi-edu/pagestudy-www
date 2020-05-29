@@ -11,7 +11,7 @@ page_gen:
   - data: 'projects'
     template: 'projects'
     name: 'slug'
-    dir: 'studies'
+    dir: '/studies/'
 
 port: 8000
 
