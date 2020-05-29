@@ -1,6 +1,6 @@
 ---
 name: "PAGE Study"
-#baseurl: "/prisms-www"
+baseurl: "/pagestudy-www"
 markdown: kramdown
 permalink: pretty
 paginate: 3
