@@ -3,20 +3,20 @@
 <footer id="footer">
 
   <div class="lockup">
-    
+
     <div class="content-wrap">
 
-      <nav>
+      <navig>
         {% for item in site.data.settings.menu %}
           <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
         {% endfor %}
-      </nav>
-      
+      </navig>
+
       <p class="copyright">All content copyright {{ site.time | date: '%Y' }}
       </p>
 
     </div>
-    
+
   </div>
 
 </footer>
