@@ -12,7 +12,7 @@ menu:
 - {name: Home, url: '/'}
 - {name: Studies, url: '/studies/'}
 - {name: Multi-Ethnic Genotyping Array, url: '/mega/'}
-- {name: Coordinating Center, url: '/coordinating-center/'}
+- {name: PAGE Investigators, url: '/page-investigators/'}
 - {name: Publications, url: '/publications/'}
 - {name: News, url: '/news/'}
 - {name: Contact, url: '/contact/'}
