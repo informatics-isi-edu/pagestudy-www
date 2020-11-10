@@ -1,37 +1,62 @@
 #-------------------------------
 # Current Studies Section
-
 - project_title: >
-    CALiCo Consortium
-  slug: calico
+    ARIC: The Atherosclerosis Risk in Communities Study
+  slug: aric
   type:
   pi: 'Kari North'
-  #email: 'ambite@isi.edu'
-  #coemail: 'gillilan@usc.edu'
   institute: 'University of North Carolina, Chapel Hill'
   img: north
   description: >
-    Genetic Epidemiology of Causal Variants Across the Life Course Phase II (CALiCo II) is a consortium of population based studies that have entered a partnership to provide optimal opportunities to investigate the association of genetic variants associated with complex diseases in ancestrally diverse populations. The first phase of CALiCo, CALiCo I, assessed the importance of common variants in diverse U.S. populations, public health-relevant contexts, and epochs in the natural history of chronic disease. CALiCo II will expand on these studies to assess low frequency [1-5% minor allele frequency (MAF)] and rare (0.1-1% MAF) coding and/or potentially functional genomic variants. The consortium comprises the Atherosclerosis Risk in Communities (ARIC) Study, the Coronary Artery Risk Development in Young Adults (CARDIA) Study, the Hispanic Community Health Study (HCHS/SOL), the Strong Heart Study (SHS) and the Strong Heart Family Study (SHFS); and a Central Genotyping Core Laboratory located at the Human Genetics Center, University of Texas Health Sciences Center at Houston.<br/><br/>
-
-    These population-based studies have considerable breadth of phenotype characterization and population sizes to permit informative assessments of a wide range of variants, traits and public health contexts, with power sufficient to identify associations and interactions. This consortium brings several of the most informative studies extant and its core genotyping laboratory to a collaboration with other studies funded by this RFA, contributing well characterized cohorts under long term follow up, which include three main ethnic and racial groups in the U.S. (African Americans, Hispanics/Latinos, American Indians), and the ability to extend the characterization of genes and their associated traits and illnesses across the life course. In collaboration with Population Architecture Using Genomics in Epidemiology (PAGE) studies, CALiCo II will explore the associations of genetic variation with a broad range of phenotypes, including conditions that disproportionately burdens U.S. ethnic and racial minorities.<br/><br/><a href="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000223.v1.p1">ARIC dbGaP PAGE</a><br/><br/>CALiCo Consortium:<ul><li><a href="http://www.cscc.unc.edu/aric/">Atherosclerosis Risk In Communities (ARIC)</a></li><li><a href="http://www.cardia.dopm.uab.edu/">Coronary Artery Risk In Young Adults (CARDIA)</a></li><li><a href="http://chs-nhlbi.org/">Cardiovascular Heart Study (CHS)</a></li><li><a href="http://www.cscc.unc.edu/hchs/">Hispanic Community Health Study (HCHS)</a></li><li><a href="http://strongheart.ouhsc.edu/">The Strong Heart Cohort Study (SHS)</a></li><li><a href="http://strongheart.ouhsc.edu/">The Strong Heart Family Study (SHFS)</a></li></ul>
+    The Atherosclerosis Risk in Communities Study (ARIC), sponsored by the National Heart, Lung, and Blood Institute (NHLBI) is a prospective epidemiologic study conducted in four U.S. communities.  ARIC is designed to investigate the causes of atherosclerosis and its clinical outcomes, and variation in cardiovascular risk factors, medical care, and disease by race, gender, location, and date. To date, the ARIC study has published over 2,000 articles in peer-reviewed journals.
 - project_title: >
-    ISMMS: Icahn School of Medicine at Mount Sinai
-  slug: ismms
+    BioMe
+  slug: biome
   type:
   pi: 'Ruth Loos'
   institute: 'Mount Sinai Hospital, New York'
   img: loos
   description: >
-    The Institute for Personalized Medicine (IPM) BioMe Biobank is a consented, EMR-linked medical care setting biorepository of the Mount Sinai Medical Center (MSMC) drawing from a population of over 70,000 inpatients and 800,000 outpatient visits annually. MSMC serves diverse local communities of upper Manhattan, including Central Harlem (86% African American), East Harlem (88% Hispanic Latino), and Upper East Side (88% Caucasian/white) with broad health disparities. IPM BioMe Biobank populations include 28% African American, 38% Hispanic Latino predominantly of Caribbean origin, 23% Caucasian/White. IPM BioMe Biobank disease burden is reflective of health disparities with broad public health impact. Biobank operations are fully integrated in clinical care processes, including direct recruitment from clinical sites waiting areas and phlebotomy stations by dedicated Biobank recruiters independent of clinical care providers, prior to or following a clinician standard of care visit. Recruitment currently occurs at a broad spectrum of over 30 clinical care sites.<br/><br/><a href="http://icahn.mssm.edu/research/ipm/programs/biome-biobank">BioMe Biobank website</a>
+    BioMe is an electronic medical record-linked biobank at the Icahn School of Medicine at Mount Sinai that enables researchers to rapidly and efficiently conduct genetic, epidemiologic, molecular, and genomic studies on large collections of research specimens linked with medical information.  It is funded by The Charles Bronfman Institute for Personalized Medicine.
+- project_title: >
+    CARDIA: Coronary Artery Risk Development in Young Adults
+  slug: cardia
+  type:
+  pi: 'Myriam Fornage'
+  institute: 'University of Texas Health Center'
+  img: fornage
+  description: >
+    The Coronary Artery Risk Development in Young Adults (CARDIA) study aims to identify factors that begin in young adulthood, which is two to three decades before the onset of cardiovascular disease in later life. The CARDIA study is designed to examine the factors that contribute to the development of cardiovascular disease, as well as to better understand the natural history of cardiovascular disease over the entire adult life.
+- project_title: >
+    HCHS/SOL: Hispanic Community Health Study / Study of Latinos
+  slug: hchs-sol
+  type:
+  pi: 'Kari North'
+  institute: 'University of North Carolina, Chapel Hill'
+  img: north
+  description: >
+    The Hispanic Community Health Study / Study of Latinos (HCHS/SOL) is a multi-center epidemiologic study in Hispanic/Latino populations to assess the role of acculturation in the prevalence and development of disease, and to identify factors playing a protective or harmful role in the health of Hispanics/Latinos. The target population of 16,000 persons of Hispanic/Latino origin, specifically Cuban, Puerto Rican, Dominican, Mexican, and Central/South American, were recruited through four Field Centers in Miami, San Diego, Chicago and the Bronx area of New York.
 - project_title: >
     MEC: Multiethnic Cohort
   slug: mec
   type:
   pi: 'Christopher Haiman'
+  copi: 'Loic Lemarchand'
   institute: 'University of Southern California'
+  coinstitute: 'University of Hawaii Cancer Center'
   img: haiman
+  coimg: lemarchand
   description: >
-    The Multiethnic Cohort (MEC) has established a large biorepository of blood and urine (N=67,000) and cryopreserved lymphocytes (N=15,000) linked to extensive, prospectively collected risk factors (e.g., diet, smoking, physical activity), biomarkers and clinical data for five racial/ethnic groups. This cohort study of over 215,000 men and women in Hawaii and California is unique in that it is population-based and includes large representations of older adults (45-75 yrs at baseline) for five US racial/ethnic groups (Japanese Americans, African Americans, European Americans, Latinos and Native Hawaiians) at varying risks of chronic diseases. Within the PAGE investigation, the MEC proposes to study: 1) diseases for which we have DNA available for large numbers of cases and controls (breast, prostate, and colorectal cancer, diabetes, and obesity); 2) important cancers that are less common (e.g., lung, pancreas, endometrial cancers, NHL) but for which we propose to pool our data with other funded groups; 3) common traits that are risk factors for these diseases (e.g., body mass index/weight, waist-to-hip ratio, height) and 4) relevant disease-associated biomarkers (e.g., fasting insulin and lipids, steroid hormones). The specific aims are: 1) To determine the population-based epidemiologic profile (allele frequency, main effect, heterogeneity by disease characteristics) of putative causal variants in the five racial/ethnic groups in the MEC; 2) for variants displaying effect heterogeneity across ethnic/racial groups, we will utilize differences in LD to identify a more complete spectrum of associated variants at these loci; 3) investigate gene x gene and gene x environment interactions to identify modifiers; 4) examine the associations of putative causal variants with already measured intermediate phenotypes (e.g., plasma insulin, lipids, steroid hormones); and 5) for variants that do not fall within known genes, start to investigate their relationships with gene expression and epigenetic patterns in small genomic studies.<br/><br/><ul><li><a href="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000220.v1.p1">MEC dbGaP Page</a></li><li><a href="">MEC website</a></li></ul>
+    The Multiethnic Cohort Study (MEC) is a large epidemiological study which follows over 215,000 residents of Hawaiʻi and Los Angeles for development of cancer and other chronic diseases. It includes men and women of five main ethnic groups: Japanese Americans, Native Hawaiians, African Americans, Latinos, and whites.
+- project_title: >
+    MESA: Multi-Ethnic Study of Atherosclerosis
+  slug: mesa
+  type:
+  pi: 'Steven Rich'
+  institute: 'University of Virginia School of Medicine'
+  img: rich
+  description: >
+    The Multi-Ethnic Study of Atherosclerosis (MESA) is a study of the characteristics of subclinical cardiovascular disease (disease detected non-invasively before it has produced clinical signs and symptoms) and the risk factors that predict progression to clinically overt cardiovascular disease or progression of the subclinical disease. MESA researchers study a diverse, population-based sample of 6,814 asymptomatic men and women aged 45-84. Approximately 38 percent of the recruited participants are white, 28 percent African-American, 22 percent Hispanic, and 12 percent Asian, predominantly of Chinese descent.
 - project_title: >
     WHI: Women's Health Initiative
   slug: whi
@@ -40,4 +65,4 @@
   institute: 'Fred Hutchinson Cancer Research Center, Seattle'
   img: kooperberg
   description: >
-    The Women's Health Initiative (WHI) is a long-term national health study that has focused on strategies for preventing heart disease, breast and colorectal cancer and osteoporotic fractures in postmenopausal women. These chronic diseases are the major causes of death, disability and frailty in older women of all races and socioeconomic backgrounds.<br/><br/>This cohort is sponsored by the National Institutes of Health (NIH), National Heart, Lung, and Blood Institute (NHLBI), involves 161,808 women aged 50-79, and is one of the most definitive, far-reaching clinical trials of post-menopausal women's health ever undertaken in the U.S. Women were recruited between 1993 to 1998 at 40 centers across the US and follow up is planned to continue until at least 2015. The WHI Clinical Trial and Observational Study focused on many of the inequities in women's health research and will continue to provide practical information to women and their physicians about hormone therapy, dietary patterns, calcium/vitamin D supplementation, and their effects on the prevention of heart disease, cancer and osteoporotic fractures.<br/><br/>The WHI has two major parts: a randomized Clinical Trial and an Observational Study. The randomized controlled Clinical Trial (CT) enrolled 68,132 postmenopausal women between the ages of 50-79 into trials testing three prevention strategies. If eligible, women could choose to enroll in one, two, or all three of the trial components. The components are:<ul><li>Hormone Therapy Trials (HT): This component examined the effects of combined hormones or estrogen alone on the prevention of coronary heart disease and osteoporotic fractures, and associated risk for breast cancer. Women participating in this component took hormone pills or a placebo (inactive pill) until the Estrogen plus Progestin and Estrogen Alone trials were stopped early in July 2002 and March 2004, respectively. All HT participants continued to be followed without intervention until close-out.</li><li>Dietary Modification Trial (DM): The Dietary Modification component evaluated the effect of a low-fat and high fruit, vegetable and grain diet on the prevention of breast and colorectal cancers and coronary heart disease. Study participants followed either their usual eating pattern or a low-fat dietary pattern.</li><li>Calcium/Vitamin D Trial (CaD): This component began 1 to 2 years after a woman joined one or both of the other clinical trial components. It evaluated the effect of calcium and vitamin D supplementation on the prevention of osteoporotic fractures and colorectal cancer. Women in this component took calcium and vitamin D pills or a placebo.</li></ul><br/><br/>The Observational Study (OS) is examining the relationship between lifestyle, health and risk factors and specific disease outcomes. This component involves tracking the medical history and health habits of 93,676 women.<br/><br/>To fully examine the profile of gene and environment interaction, or "epidemiologic architecture," we will comprehensively evaluate such putative genuine variants in the Women's Health Initiative This large study population not only enables us to examine the population incidence for racial and ethnic subgroups and associated risks of rigorously defined, incident diseases (specific aim 1) but allows us to investigate associated risks given in-depth information on various environmental exposures and disease risk factors as well as three randomized interventions (hormone therapy; low-fat dietary modification; calcium + vitamin D supplements) (specific aim 2). The prospective and longitudinal collection of biospecimens, intermediate outcomes, and phenotypic characteristics, such as bone mineral density, hormone concentrations, breast density, or inflammation will further permit us to link genetic variants to relevant intermediate phenotypes, which will potentially provide important clues to the biological basis of the genuine associations (specific aim 3). For a variety of outcomes we will genotype within this 4-year project 72,000 participants for disease-specific putative genuine variants. Information generated from this study will be critical to determine the health impact of any given undisputable variant. Findings may also provide valuable insights into disease pathways and mechanisms, and targets for disease screening, prevention, and treatment.<ul><li><a href="http://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000227.v1.p2">WHI dbGaP page</a></li><li><a href="http://www.whi.org/">WHI website</a></li></ul>
+    The Women’s Health Initiative (WHI) is a long-term national health study funded by the National Heart, Lung, and Blood Institute, or NHLBI. The original WHI study began in the early 1990s and concluded in 2005. Since 2005, the WHI has continued as Extension Studies, which are annual collections of health updates and outcomes in active participants. The second Extension Study enrolled 93,500 women in 2010 and follow-up of these women continues. As with the original WHI study, the main areas of research are cardiovascular disease, cancers, and osteoporotic fractures. While WHI continues to focus on strategies to prevent the major causes of death, disability, and frailty in older women, the breadth and richness of the WHI data allow for the exploration and investigation of many more research questions on women’s health and aging.
